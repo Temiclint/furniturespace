@@ -1,0 +1,916 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.heros-wrapper {
+  background-color: #DEE2FF;
+  padding: 0 5%;
+}
+
+.nav {
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #DEE2FF;
+}
+
+.logo-wrapper {
+  padding: 20px 50px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #00487c;
+  border-bottom: 0px solid #00487c;
+}
+
+.navlink:hover {
+  border-bottom: 2px solid #00487c;
+}
+
+.navlink:active {
+  color: #001734;
+  border-bottom: 2px solid #001734;
+}
+
+.navlist {
+  list-style: none;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navitems {
+  display: inline;
+  padding-left: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.herosection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70vh;
+}
+
+.pandbtnhero {
+  flex: 1 1 auto;
+  width: 40%;
+  text-align: center;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-statement {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Alegreya", serif;
+  color: #00487c;
+  margin-bottom: 70px;
+}
+
+.heroimg {
+  width: auto;
+  flex: 1 1 auto;
+}
+
+.viewgallerybtn {
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #00487c;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-weight: 600;
+  width: 250px;
+}
+
+.viewgallerybtn:hover {
+  background-color: #001734;
+}
+
+.productsection {
+  padding: 5%;
+  text-align: center;
+  background-color: #eff0ff;
+}
+
+.product-heading {
+  font-size: 2rem;
+  color: #00487c;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.product-description {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9rem;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.pricehome {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: #D81159;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px 20px;
+}
+
+.product-list {
+  padding: 10px;
+  height: auto;
+  width: 30%;;
+  margin: 10px ;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+
+.product-list:hover {
+  background-color: #e0e2fd;
+  transform: scale(1.1);
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  color: #00487c;
+}
+
+.product-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 13px;
+  margin-bottom: 20px
+}
+
+.view-details-btn {
+  text-align: center;
+  width: 200px;
+  height:60px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #00487c;
+  border-radius: 5px;
+  justify-self: center;
+  font-weight: 500;
+ 
+}
+
+.view-details-btn:hover {
+  background-color: #001734;
+}
+
+.our-services {
+  padding: 5% 7%;
+  background-color: #DEE2FF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-header {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Alegreya", serif;
+  color: #001734;
+}
+
+.home-delivery {
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hdd {
+  flex: 1 1 40%;
+  margin: 30px;
+}
+
+.home-delivery-img {
+  width: 100%;
+  height: auto;
+}
+
+.home-delivery-description {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  color: #001734;
+  line-height: 2;
+  font-weight: 400;
+}
+
+.home-delivery-heading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  color: #001734
+}
+
+.contact-service {
+  margin-top: 50px;
+  padding: 15px 150px;
+  font-weight: 600;
+  border-radius: 25px;
+  color: #DEE2FF;
+  background-color: #00487c;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contact-service:hover {
+  background-color: #001734;
+}
+
+footer {
+  /* background: url(new image\footer-img.jpg) repeat 0 0;
+background-size: 100% 100%; */
+  padding: 20px;
+  background-color: #001734;
+  color: white;
+  display: flex;
+  justify-content: space- ;
+}
+
+.footer-div {
+  margin: 10px;
+  flex: 1 1 auto;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color:white;
+}
+
+.links-list {
+  list-style-type: none;
+}
+
+.footerlinks {
+  padding-bottom: 20px;
+}
+
+.fanchor {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contactslinks {
+  padding-bottom: 20px;
+}
+
+.fanchor:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.footer-p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon {
+  color: white;
+  width: 20px;
+  height: auto;
+  margin-left: 20px;
+  display: inline;
+}
+
+.main-aboutus {
+  background-color: #eff0ff;
+  padding: 2% 5%;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 45%;
+  flex-basis: 500px;
+}
+
+
+.head-para-aboutus {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 20px 0 40px;
+  color: #001734
+}
+
+.p-para-aboutus {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 80px;
+  color: #001734
+}
+
+.button-para-aboutus {
+  padding: 15px 80px;
+  font-weight: 500;
+  border-radius: 25px;
+  color: #DEE2FF;
+  background-color: #00487c;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 80px;
+}
+
+.button-para-aboutus:hover {
+  background-color: #001734;
+}
+
+.img-about-us {
+  width: 500px;
+  margin: 50px;
+  border-radius: 25px;
+}
+
+.about-us-team-div {
+  padding: 5% 5%;
+  background-color: #DEE2FF;
+  font-family: "Raleway", sans-serif;
+  color: #001734
+}
+
+.teamflex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.head-team {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 20px 0 40px;
+  text-align: center;
+}
+
+.team-img-box {
+  flex: 1 1 300px;
+  margin: 10px;
+  border-radius: 25px;
+  height: 200px;
+  background-color: #F3F7F6;
+  box-shadow: none;
+  transition: all 0.9s;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.team-img-box:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 3px 28px -5px rgba(22, 153, 188, 0.76);
+  -webkit-box-shadow: 5px 3px 28px -5px rgba(22, 153, 188, 0.76);
+  -moz-box-shadow: 5px 3px 28px -5px rgba(22, 153, 188, 0.76);
+}
+
+.team-pics {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.getintouch {
+  background-color: #eff0ff;
+  padding: 10% 15%;
+  color: #001734;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conheadf {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.confrm {
+  background-color: #F3F7F6;
+  color:#001734;
+  padding: 50px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px -1px 8px 2px rgba(133, 163, 182, 0.83);
+  -webkit-box-shadow: 0px -1px 8px 2px rgba(133, 163, 182, 0.83);
+  -moz-box-shadow: 0px -1px 8px 2px rgba(133, 163, 182, 0.83);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.contactuslabels {
+  margin: 10px 0 15px;
+}
+
+.contactusinput {
+  margin: 5px 0 15px;
+  width: 100%;
+  height: 30px;
+  color: #001734; 
+  transition: all 0.9s;
+  border-radius: 5px;
+}
+
+
+.cnmsg {
+  height: 150px;
+  margin-bottom: 60px;
+}
+
+.cbtndv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-submit {
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #00487c;
+  border-radius: 5px;
+  justify-self: center;
+}
+
+.contact-submit:hover {
+  background-color: #001734;
+}
+
+.product-first-section {
+  background-color: #eff0ff;
+  padding: 5% 7%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.actualproductimg {
+  width: 500px;
+  height: auto;
+}
+
+.smallimages {
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.smallimga {
+  width: 70px;
+  height: 70px;
+  margin: 7px 0 0 7px;
+}
+
+.pp {
+  flex: 1 1 50%;
+}
+
+.product-title {
+  width: 400px;
+}
+
+.ptt {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 2.8rem;
+  color: #001734;
+  margin: 0;
+}
+
+.ptp {
+  margin-top: 30px;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 350;
+  font-size: 1.2rem;
+}
+
+.ptul {
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 350;
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.ptprice {
+  margin-top: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 690;
+  font-size: 2rem;
+  color: #D81159;
+}
+
+.ptbtn {
+  box-sizing: border-box;
+  padding: 10px 40px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  border-radius: 5px;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.ptbtn:hover {
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.ptcancel {
+  background-color: #CACFC9;
+  color: #272B26;
+}
+
+.ptplaceorder {
+  background-color: #001734;
+  color: white;
+}
+
+.productdescription {
+  background-color: #eff0ff;
+}
+
+.productdescriptiontext {
+  box-sizing: border-box;
+  width: 80%;
+  background-color: #00487c;
+  margin-top: 0;
+  padding: 5% 7%;
+  padding-right: 30%;
+  color: white;
+}
+
+.pdh {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.pdp {
+  margin-bottom: 50px;
+}
+
+.pdp, .pddetails {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.pddetails {
+  line-height: 1.5;
+}
+
+.pdhr {
+  display: inline-block;
+  text-align: left;
+  width: 60%;
+}
+
+.productdescriptionimg {
+  z-index: 10;
+  position: absolute;
+  left: 900px;
+  top: 1050px;
+  width: 600px;
+  height:auto;
+}
+
+.pdi2 {
+max-width: 100%;
+ height: 100%;
+ display: block;
+ margin:auto
+}
+
+.pddspan {
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.relatedproducts {
+  padding: 5% 7%;
+  background-color: #eff0ff;
+  text-align: center;
+}
+
+.relatedproductshead {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #001734;
+  margin-bottom: 50px;
+}
+
+.relatedproductsimg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rtdbund {
+  flex: 1 1 400px;
+}
+
+.rtdimg {
+  width: 200px;
+  height: 200px;
+}
+
+.rtdp {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  color: #00487c;
+}
+
+.rtdp:hover {
+  color: #001734;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.rtdanchor {
+  text-decoration: none;
+}
+
+.order2wrapper {
+  padding: 5% 7%;
+  width: 90%;
+  background-color: #eff0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.srcrecordfrm{
+  text-align: left;
+  margin: 20px;
+  background-color: #F3F7F6;
+  border-radius: 5px;
+  border:2px solid #001734;
+  padding: 20px;
+}
+.order2frm{
+  width:100%;
+}
+.orderhead {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #001734;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.order-label {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  color: #001734;
+  font-weight: 500;
+}
+
+.ro{
+  background-color: #F6EFEE;
+  font-weight: bold;
+}
+
+.order-inpttext {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 100%;
+  height: 30px;
+  border: 0.5px solid #CACFC9;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  color: #001734;
+}
+
+.inptslt {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  color: #001734;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  height: 30px;
+  border: 0.5px solid #CACFC9;
+  border-radius: 5px;
+}
+
+.order-inptchk {
+  border: 0.5px solid #CACFC9;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.chk1 {
+  margin-top: 10px;
+}
+
+.chklbl {
+  position: relative;
+  bottom: 5.5px;
+}
+
+.order-inpttextbx {
+  border-radius: 10px;
+  border: 0.5px solid #CACFC9;
+  margin-top: 5px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btnorder {
+  box-sizing: border-box;
+  padding: 10px 40px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  border-radius: 5px;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.cancelorder {
+  background-color: #CACFC9;
+  color: #272B26;
+}
+
+.placeorder {
+  background-color: #001734;
+  color: white;
+}
+
+.placeorder:hover {
+  background-color: #00487c;
+}
+
+.placeorder-statement {
+  width: 500px;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Alegreya", serif;
+  color: #00487c;
+  margin-bottom: 70px;
+}
+.contusherimg{
+  height: 80%;
+
+}
+
+.addproductwrapper{
+  padding: 5% 7%;
+  background-color: #eff0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addproductfrm{
+  width:100%;
+
+}
+
+.displaytable{
+  padding: 10px 5px;
+  margin: 20px auto; 
+  border: 2px solid #00487c;
+  border-radius: 5px;
+  background-color: #DEE2FF;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  color:#001734;
+}
+
+.displayhead{
+  background-color: #001734;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin:5px;
+  border-radius: 2px solid none;
+
+}
+
+.displaydata{
+  margin:5px;
+  font-size: 1.2rem;
+  border-radius: 2px solid none;
+}
+.adminsection{
+  padding: 5%;
+  text-align: center;
+  background-color: #eff0ff;
+}
+
+.adminp{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+.admint{
+  width: 30%;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #272B26;
+  color:white;
+  font-size: 1.2rem;
+  font-family: "Raleway", sans-serif;
+  margin:20px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  
+}
+
+
+.admint:hover{
+  transform: scale(1.1);
+  background-color: #00487c;
+  font-weight: bolder;
+}
+.adminheading{
+  font-size: 2rem;
+  color: #00487c;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.displayanc{
+  text-decoration: none;
+  color:white;
+
+}
+
+.orderdet{
+  text-align: center;
+  width:300px;
+  height: auto;
+  
+}
+
+.imgord{
+  max-width: 100%;
+  height: 100%;
+
+}
